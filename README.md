@@ -17,7 +17,9 @@ Based on an idea and first version found here https://www.facebook.com/groups/49
 # How to execute
 ``Usage: pdf2docxConverter.py [-p pattern="(?i)\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"]``
 
-If no arguments are given, pdf2docxConverter searches for files with names matching pattern (?i)\\.pdf$ in the current working directory. Supported arguments:
+If no arguments are given, pdf2docxConverter searches for files with names matching pattern (?i)\\.pdf$ in the current working directory. 
+
+**Supported arguments:**
 
 ``-p pattern`` : regular expression. The pattern the pdf files names that are should be converted to docx must match . Defaults to \.pdf$ .
 
