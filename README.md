@@ -38,3 +38,8 @@ If no arguments are given, pdf2docxConverter searches for files with names match
 
 ``-G`` : Enable debug mode. Not yet implemented/working.
 
+# Related projects
+
+https://github.com/OsbornePro/Convert-PDF-to-DOCX
+
+https://github.com/PayalSasmal10/pdf2docxConverter-PayalSasmal
