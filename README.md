@@ -1,5 +1,5 @@
-# p2dConverter
- Converts pdf files to docx. 
+# About pdf2docxConverter
+ Converts pdf files to docx using python's pdf2docx module.  
 
 
 # Acknowledgements
@@ -14,7 +14,7 @@ Based on an idea and first version found here https://www.facebook.com/groups/49
 
 
 # How to execute
-``Usage: p2dConverter [-p pattern="\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"]``
+``Usage: pdf2docxConverter.py [-p pattern="\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"]``
 
 ``-p pattern`` : regular expression. The pattern the pdf files names that are should be converted to docx must match . Defaults to \.pdf$ .
 
