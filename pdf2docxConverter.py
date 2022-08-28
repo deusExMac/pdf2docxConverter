@@ -76,7 +76,7 @@ def main():
    # Parse command line arguments   
    cmdLineArgs = ThrowingArgumentParser()
    cmdLineArgs.add_argument('directory', nargs=argparse.REMAINDER, default='./' )
-   cmdLineArgs.add_argument('-p', '--pattern', type=str, default='\.pdf$' )
+   cmdLineArgs.add_argument('-p', '--pattern', type=str, default='(?i)\.pdf$' )
    cmdLineArgs.add_argument('-s', '--start', type=int, nargs='?', default=1 )
    cmdLineArgs.add_argument('-e', '--end', type=int, nargs='?', default=None )
    cmdLineArgs.add_argument('-o', '--outputdir', type=str, nargs='?', default='./' )
@@ -124,7 +124,7 @@ def main():
    matchingList = listDirectoryFiles(args['directory'][0], args['pattern'])
    if not matchingList:
       print('No filenames matching regular expression [', args['pattern'], '] in directory [', args['directory'][0], ']', sep='')
-      print('\nUsage: p2dConverter [-p pattern="\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"]')
+      print('\nUsage: p2dConverter [-p pattern="(?i)\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"]')
       return(-1)
 
    #print('\nUsage: p2dConverter [-p pattern="\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"] \n') 
