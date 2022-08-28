@@ -124,10 +124,10 @@ def main():
    matchingList = listDirectoryFiles(args['directory'][0], args['pattern'])
    if not matchingList:
       print('No filenames matching regular expression [', args['pattern'], '] in directory [', args['directory'][0], ']', sep='')
-      print('Usage: p2dConverter [-p pattern="\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"]')
+      print('\nUsage: p2dConverter [-p pattern="\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"]')
       return(-1)
 
-   print('\nUsage: p2dConverter [-p pattern="\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"] \n') 
+   #print('\nUsage: p2dConverter [-p pattern="\.pdf$"] [-s frompagenumber=1] [-e topagenumber=None] [-o outputdir="./"] [-P password=None] [-N] [-G] [source directory="./"] \n') 
    print('\nConverting to .docx all .pdf with following parameters:')
    print('\tSource directory: [', args['directory'], ']')
    print('\tFilename pattern: [', args['pattern'], '](Total of ', len(matchingList), 'filenames match pattern)')
