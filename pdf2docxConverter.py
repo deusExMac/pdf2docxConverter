@@ -180,7 +180,7 @@ def main():
            nConverted += 1
          except Exception as cvException:
            print('Conversion error.', str(cvException))  
-           cv.close()
+           cv.close() # TODO: Is this the right place to free resources?
            continue
      
    except KeyboardInterrupt:  
