@@ -144,7 +144,7 @@ def main():
       print('\n\tSettings indicate that if destination files already exists, these will be deleted. Use -N option to avoid overwriting existing files.')
       print('\tYou have 5 seconds to think and terminate the process.')
 
-    print('\nContinue? Type Control-C to terminate.') 
+    print('\nContinue? (Type Control-C to terminate.)') 
     time.sleep( 3.9 )
     countdown(5)
 
