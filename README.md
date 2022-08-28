@@ -8,8 +8,8 @@ Based on an idea and first version found here https://www.facebook.com/groups/49
 
 
 # Required Python modules
+  - [pdf2docx](https://pypi.org/project/pdf2docx/)
   - argparse
-  - pdf2docx
 
 
 
