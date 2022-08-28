@@ -1,9 +1,10 @@
 # About pdf2docxConverter
- Converts pdf files to docx using python's pdf2docx module.  
+
+Converts pdf files to docx using python's pdf2docx module.  
+This script has been created to experiment with the pdf2docx module.
 
 
 # Acknowledgements
-
 Based on an idea and first version found here https://www.facebook.com/groups/4910929078932537
 
 
